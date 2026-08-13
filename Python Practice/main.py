@@ -35,6 +35,6 @@ print("After a /= 4:", a)
 # Logical Operators
 x = True
 y = False
-print("x and y:", x and y)
-print("x or y:", x or y)
-print("not x:", not x)
+print("And Operator:", "x and y:", x and y)
+print("Or Operator:", "x or y:", x or y)
+print("Not Operator:", "not x:", not x)
