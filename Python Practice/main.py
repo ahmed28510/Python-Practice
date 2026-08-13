@@ -31,3 +31,10 @@ a *= 2
 print("After a *= 2:", a)
 a /= 4
 print("After a /= 4:", a)
+
+# Logical Operators
+x = True
+y = False
+print("x and y:", x and y)
+print("x or y:", x or y)
+print("not x:", not x)
