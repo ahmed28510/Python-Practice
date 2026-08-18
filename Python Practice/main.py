@@ -38,3 +38,18 @@ y = False
 print("And Operator:", "x and y:", x and y)
 print("Or Operator:", "x or y:", x or y)
 print("Not Operator:", "not x:", not x)
+
+# Bitwise Operators
+a = 10  # 1010 in binary
+b = 6   # 0110 in binary
+print("Bitwise AND:", a & b)
+print("Bitwise OR:", a | b)
+print("Bitwise XOR:", a ^ b)
+print("Bitwise NOT:", ~a)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
+
+# Membership Operators
+my_list = [1, 2, 3, 4, 5]
+print("Is 3 in my_list?", 3 in my_list)
+print("Is 6 in my_list?", 6 in my_list)
