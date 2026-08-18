@@ -53,3 +53,25 @@ print("Right Shift:", a >> 1)
 my_list = [1, 2, 3, 4, 5]
 print("Is 3 in my_list?", 3 in my_list)
 print("Is 6 in my_list?", 6 in my_list)
+
+# Identity Operators
+x = [1, 2, 3]
+y = [1, 2, 3]
+z = x
+print("Is x the same object as y?", x is y)
+print("Is x the same object as z?", x is z)
+
+# Type Conversion
+a = 10
+b = 3.5
+c = "100"
+
+print("Integer to Float:", float(a))
+print("Float to Integer:", int(b))
+print("String to Integer:", int(c))
+print("String to Float:", float(c))
+
+# User Input
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
+
